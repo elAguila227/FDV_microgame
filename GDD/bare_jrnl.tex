@@ -80,6 +80,11 @@
 % \ifCLASSINFOpdf conditional that works the same way.
 % When switching from latex to pdflatex and vice-versa, the compiler may
 % have to be run twice to clear warning/error messages.
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  urlcolor=blue
+}
 \usepackage{multicol,caption}
 \newenvironment{Figure}
   {\par\medskip\noindent\minipage{\linewidth}}
@@ -335,6 +340,17 @@ la nave y con flecha \textit{abajo} en la dirección contraria.
 \subsubsection*{Disparo}
 Al presionar la tecla \textit{espacio} la nave dispara una bala en la dirección en la
 que apunta.
+
+\vfill\break
+
+\null\vfill
+
+\section*{Links}
+\raggedright
+\subsubsection*{Repositorio}
+\url{https://github.com/elAguila227/FDV_microgame}
+\subsubsection*{Descarga}
+\url{https://github.com/elAguila227/FDV_microgame/releases/tag/windows}
 
 
 \end{document}
